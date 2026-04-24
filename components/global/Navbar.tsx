@@ -38,7 +38,7 @@ export default function Navbar() {
       items={items}
       baseColor="bg-white"
       menuColor="text-black"
-      buttonBgColor="bg-primary-700"
+      buttonBgColor="bg-volteryde-green"
       buttonTextColor="text-white"
       ease="power3.out"
       ctaHref="/#get-volteryde"

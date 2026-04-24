@@ -18,7 +18,7 @@ export default function GetVolteryde() {
       <div className="max-w-4xl mx-auto text-center">
         {/* Section Title */}
         <motion.h2
-          className="text-4xl md:text-5xl font-black text-primary-100 mb-4"
+          className="text-4xl md:text-5xl font-black text-volteryde-green mb-4"
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
           variants={titleVariants}
@@ -46,7 +46,7 @@ export default function GetVolteryde() {
         >
           {/* Play Store Button - TODO: Replace with actual Google Play Store URL */}
           <motion.div variants={buttonVariants}>
-            <Link 
+            <Link
               href="https://play.google.com/store/apps/details?id=com.volteryde.app"
               target="_blank"
               rel="noopener noreferrer"
@@ -78,7 +78,7 @@ export default function GetVolteryde() {
 
           {/* App Store Button - TODO: Replace with actual App Store URL */}
           <motion.div variants={buttonVariants}>
-            <Link 
+            <Link
               href="https://apps.apple.com/app/volteryde/id0000000000"
               target="_blank"
               rel="noopener noreferrer"

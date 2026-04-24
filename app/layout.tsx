@@ -19,9 +19,9 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: {
     template: "%s | Volteryde",
-    default: "Volteryde | Smart Electric Transport for Africa",
+    default: "Volteryde | Smart Electric Transportation",
   },
-  description: "Join the move toward greener transportation. Volteryde empowers sustainable movement across Africa with electric transport and intelligent mobility solutions. Download the app today.",
+  description: "Volteryde is a mobility operator and platform company that provides technology-enabled systems for mass transit operations in Ghana and beyond.",
   keywords: ["Volteryde", "Electric Bus", "Sustainable Transport", "Africa", "Ghana", "Green Energy", "Smart Mobility", "Public Transport"],
   authors: [{ name: "Volteryde" }],
   creator: "Volteryde",
@@ -68,8 +68,8 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Volteryde | Smart Electric Transport for Africa",
-    description: "Empowering sustainable movement across Africa with electric transport and intelligent mobility solutions.",
+    title: "Volteryde | Smart Electric Transportation",
+    description: "Volteryde is a mobility operator and platform company that provides technology-enabled systems for mass transit operations in Ghana and beyond.",
     url: "https://volteryde.com",
     type: "website",
     siteName: "Volteryde",
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
         secureUrl: "https://volteryde.com/og_image.png",
         width: 1200,
         height: 630,
-        alt: "Volteryde - Smart Electric Transport for Africa",
+        alt: "Volteryde - Smart Electric Transportation",
         type: "image/png",
       },
     ],
@@ -87,8 +87,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Volteryde | Smart Electric Transport for Africa",
-    description: "Join the move toward greener transportation. Volteryde empowers sustainable movement across Africa with electric transport and intelligent mobility solutions.",
+    title: "Volteryde | Smart Electric Transportation",
+    description: "Volteryde is a mobility operator and platform company that provides technology-enabled systems for mass transit operations in Ghana and beyond.",
     images: ["https://volteryde.com/og_image.png"],
     creator: "@volteryde",
     site: "@volteryde",
@@ -104,7 +104,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Volteryde",
-    description: "Smart Electric Transport for Africa - Empowering sustainable movement with electric buses and intelligent mobility solutions.",
+    description: "Volteryde is a mobility operator and platform company that provides technology-enabled systems for mass transit operations in Ghana and beyond.",
     url: "https://volteryde.com",
     logo: "https://volteryde.com/mainlogo.png",
     sameAs: [

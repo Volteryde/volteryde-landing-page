@@ -23,7 +23,7 @@ export default function HowItWorks() {
           animate={isInView ? "visible" : "hidden"}
           variants={titleVariants}
         >
-          <h2 className="text-4xl md:text-5xl font-black text-primary-100 mb-4">
+          <h2 className="text-4xl md:text-5xl font-black text-volteryde-green mb-4">
             How volteryde Works
           </h2>
         </motion.div>
@@ -46,7 +46,7 @@ export default function HowItWorks() {
                 {/* Number Circle */}
                 <div className="flex-shrink-0">
                   <motion.div
-                    className="flex items-center justify-center w-16 h-16 rounded-full border-3 border-primary-700 text-primary-100 font-bold text-[32px]"
+                    className="flex items-center justify-center w-16 h-16 rounded-full border-3 border-volteryde-green text-volteryde-green font-bold text-[32px]"
                     whileHover={{
                       scale: 1.1,
                       rotate: 360,
@@ -60,7 +60,7 @@ export default function HowItWorks() {
 
                 {/* Text Content */}
                 <div className="flex-1">
-                  <h3 className="text-xl md:text-[32px] font-black text-primary-100 mb-2">
+                  <h3 className="text-xl md:text-[32px] font-black text-volteryde-green mb-2">
                     {step.title}
                   </h3>
                   <p className="text-secondary-200 text-base md:text-lg leading-relaxed">
